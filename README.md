@@ -2,8 +2,6 @@
 
 Drive a car autonomously based on data of user's driving behavior. This project used Udacity's Self-driving Car Simulator as simulation environment. The CNN model created for this project is a modified version of the PilotNet, which was developed by Nvidia in 2017 for a similar task.
 
-[image_1]: ./markdown_source/pilotnet.png "PilotNet Architecture"
-
 <p align="center">  
   <img src="./markdown_source/demo.gif">
 </p>
