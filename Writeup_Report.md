@@ -1,4 +1,4 @@
-##**Behavioral Cloning Project**
+## Behavioral Cloning Project | Writeup Report
 
 The goals / steps of this project are the following:
 
@@ -86,7 +86,8 @@ I created a dataloader using tensorflow datasets object. The dataloader take a d
     - Convert from RGB to YUV
     - Normalize image
 
-<center>
+<p align="center">  
+    
 ![alt text][image_2]
 
 center camera
@@ -95,4 +96,5 @@ center camera
 ![alt text][image_3]
 
 left & right cameras
-</center> 
+
+</p>
