@@ -1,12 +1,13 @@
-##**Behavioral Cloning Project**
+# Behavioral Cloning Project :oncoming_automobile:
+
 Drive a car autonomously based on data of user's driving behavior. This project used Udacity's Self-driving Car Simulator as simulation environment. The CNN model created for this project is a modified version of the PilotNet, which was developed by Nvidia in 2017 for a similar task.
 
-[image_0]: ./markdown_source/demo.gif "Demo Clip"
 [image_1]: ./markdown_source/pilotnet.png "PilotNet Architecture"
 
-<center>
-![alt text][image_0]
-
+<p align="center">  
+  <img src="./markdown_source/demo.gif">
+</p>
+ 
 ### CNN Architecture: PilotNet
 |             Layers             |                       Description                       |
 |:------------------------------:|:-------------------------------------------------------:|
@@ -22,7 +23,9 @@ Drive a car autonomously based on data of user's driving behavior. This project 
 |         Fully Connected        | input: 50, output: 10                                   |
 | Fully Connected (Output Layer) | input: 10, output: 1                                    |
 
-![alt text][image_1]
+<p align="center">  
+  <img src="./markdown_source/pilotnet.png">
+  <br><br>
+  PilotNet architecture as published in the original paper.
+</p>
 
-PilotNet architecture as published in the original paper.
-</center> 
